@@ -268,7 +268,7 @@ ul {
 /*  */
 
 .adventages {
-    padding: 80px 0;
+    padding: 80px 0 40px;
 }
 
 .adventages__body {
@@ -279,7 +279,7 @@ ul {
 
 .adventages__column {
     margin: 0 0 30px 0;
-    padding: 0 15px;
+    padding: 50px 15px;
     flex: 0 1 25%;
 }
 
@@ -317,7 +317,7 @@ ul {
 }
 
 .practice {
-    padding: 125px 0 80px 0;
+    padding: 10px 0 80px 0;
 }
 
 
@@ -928,6 +928,10 @@ text-decoration: underline;
 @media (max-width: 560px) {
     .adventages__column {
         flex: 0 1 100%;
+        padding: 5px 15px;
+    }
+    .adventages__body {
+        margin: 30px -15px -30px;
     }
 }
 @media (max-width: 993px){
